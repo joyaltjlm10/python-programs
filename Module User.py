@@ -1,0 +1,13 @@
+from Modulecreation import *
+a=float(input("Enter the number : "))
+b=float(input("Enter the number : "))
+x=sum(a,b)
+y=sub(a,b)
+z=mul(a,b)
+c=div(a,b)
+d=mod(a,b)
+print (str(a)+str(" + ")+str(b)+str(" = ")+str(x))
+print (str(a)+str(" - ")+str(b)+str(" = ")+str(x))
+print (str(a)+str(" * ")+str(b)+str(" = ")+str(x))
+print (str(a)+str(" / ")+str(b)+str(" = ")+str(x))
+print (str(a)+str(" % ")+str(b)+str(" = ")+str(x))
